@@ -1,0 +1,14 @@
+// dependencies installeren via package.json
+// npm starten
+// css en js koppelen aan html
+// axios installeren voor api requests
+// axios importeren in js
+// console testen
+
+// De opdracht uitwerken
+1. wereldkaart plaatsen bovenaan de pagina
+2. naam van een land weergeven in console
+    - async function maken
+    - axios GET request maken naar eindpoint
+    - try catch blok toevoegen om mislukte of trage request af te vangen
+3. naam plaatsen in lijst op de pagina
