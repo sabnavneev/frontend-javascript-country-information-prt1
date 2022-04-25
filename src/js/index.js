@@ -2,9 +2,9 @@ import axios from "axios";
 
 console.log('Werkt de console');
 
-const countryInfo = document.getElementById('country');
+const countriesInfo = document.getElementById('countries');
 
-async function getCountry() {
+async function fetchCountries() {
     try {
         const result = await axios.get('https://restcountries.com/v2/all');
 
@@ -42,7 +42,7 @@ async function getCountry() {
                         break;
                 }
             }
-            countryInfo.innerHTML += `
+            countriesInfo.innerHTML += `
                 <li>
                 <img src="${data[i].flag}" alt="Flag" class="flag"> 
                 <span class="${CountryColor}">${data[i].name}</span> 
@@ -56,4 +56,5 @@ async function getCountry() {
     }
 }
 
-getCountry();
+fetchCountries();
+
