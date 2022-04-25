@@ -1,0 +1,61 @@
+html {
+    font-size: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.container {
+    column-count: 3;
+    border: 1px solid black;
+    background-color: lightgrey;
+    padding: 20px 0;
+}
+
+.image {
+    width: 75%;
+}
+
+.flag {
+    width: 20px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    font-size: 1.2rem;
+}
+
+.list p {
+    font-size: 0.8rem;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.purple {
+    color: purple;
+}
+/*# sourceMappingURL=index2.be5cf2f4.css.map */

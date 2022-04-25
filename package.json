@@ -1,10 +1,11 @@
 {
   "name": "frontend-javascript-country-information-world-regions",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/app.js",
+  "description": "Je vrienden hebben er inmiddels lucht van gekregen dat je kunt programmeren en sindsdien wordt je low key gestalkt met\r verzoekjes om webapplicaties te bouwen. Je vriend Constantijn wil heel graag dat je een applicatie voor hem maakt die\r feitjes over landen kan ophalen, zodat hij cool kan doen met zijn wereldse kennis op borrels en verjaardagen.",
+  "main": "src/js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx jest",
+    "test:watch": "npx jest --watch",
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
@@ -14,7 +15,16 @@
     "axios": "^0.26.1"
   },
   "devDependencies": {
+    "jest": "^27.5.1",
     "parcel": "^2.0.0",
     "parcel-plugin-nuke-dist": "^1.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabnavneev/frontend-javascript-country-information-prt1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sabnavneev/frontend-javascript-country-information-prt1/issues"
+  },
+  "homepage": "https://github.com/sabnavneev/frontend-javascript-country-information-prt1#readme"
 }
